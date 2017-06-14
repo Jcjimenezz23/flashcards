@@ -20,14 +20,20 @@ function start() {
 	playRound(initialIndex, initialScore, cardArray);
 }
 
+//function play-around
+function playRound(currentIndex, currentScore, cardArray){
+	if (currentIndex < cardArray.length){
+		askQuestion(currentIndex, currentScore, cardArray);
+	}
+	else {
+		endGame(currentScore);
+	}
+} 
 
 
 
 //function that will prompt the user a question
 
-
-
-//function play-around
 
 
 
