@@ -1,0 +1,23 @@
+{
+  "name": "flashcards",
+  "version": "1.0.0",
+  "description": "back-end app using node that will allow the user chose between basic flashcards &amp; cloze deletion flashcards.",
+  "main": "Basic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jcjimenezz23/flashcards.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jcjimenezz23/flashcards/issues"
+  },
+  "homepage": "https://github.com/Jcjimenezz23/flashcards#readme",
+  "dependencies": {
+    "inquirer": "^3.1.0"
+  }
+}
